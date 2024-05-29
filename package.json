@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:migrate": "knex migrate:latest",
+    "db:seed": "knex seed:run",
+    "dbsetup": "npm run db:migrate && npm run db:seed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
