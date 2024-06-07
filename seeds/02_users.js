@@ -9,13 +9,13 @@ exports.seed = function (knex) {
           id: 1,
           name: "Alice",
           email: "abc123@gmail.com",
-          password: "password123",
+          password: "$2b$10$0ccVOoLpCb9ZElVPCoqW0eppaz6csBrL1DuANVzgXO.0NQCSgteti",
         },
         {
           id: 2,
           name: "Bob",
           email: "bob123@gmail.com",
-          password: "password123",
+          password: "$2a$12$CUguWz/q4Cy1I3ehUdpvm.ZfFstZR1js2WIRXNGbfI1xMJ.nKGqAW",
         },
       ]);
     });
