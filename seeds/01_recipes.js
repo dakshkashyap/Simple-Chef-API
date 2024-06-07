@@ -49,7 +49,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://handletheheat.com/wp-content/uploads/2012/04/brown-butter-rice-crispy-treats-SQUARE.jpg",
+          image_path: "https://saltandbaker.com/wp-content/uploads/2021/01/salted-brown-butter-rice-krispie-treats-square.jpg",
         },
         {
           id: 3,
