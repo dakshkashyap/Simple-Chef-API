@@ -166,6 +166,7 @@ app.get("/", (req, res) => {
       <li>DELETE /recipes/:id - Delete a recipe by ID</li>
       <li>POST /signup - User signup</li>
       <li>POST /login - User login</li>
+      <li>GET /users - List all users</li>
     </ul>
     <h2>Sample Response JSON</h2>
     <pre>
@@ -343,7 +344,17 @@ app.post("/login", async (req, res) => {
   }
 });
 
+// Get all users
+app.get('/users', async (req, res) => {
+  try {
+    const users = await db('users').select('id', 'name', 'email', 'password');
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port http://localhost:${PORT}`);
 });
