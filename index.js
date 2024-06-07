@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
       <li>PUT /recipes/:id - Update a recipe by ID</li>
       <li>DELETE /recipes/:id - Delete a recipe by ID</li>
     </ul>
-    <h2>Example Recipe JSON</h2>
+    <h2>Sample Response JSON</h2>
     <pre>
       {
         "title": "Vanilla Bean Ice Cream",
