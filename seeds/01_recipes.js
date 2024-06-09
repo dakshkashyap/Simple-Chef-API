@@ -243,7 +243,7 @@ exports.seed = function (knex) {
           ]),
           category: "Condiment",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://static.wixstatic.com/media/10e36c_bc47d8f5fbba4fd399c678d9dff75c50~mv2.jpg/v1/fill/w_2500,h_1406,al_c/10e36c_bc47d8f5fbba4fd399c678d9dff75c50~mv2.jpg",
         },
         {
           id: 12,
@@ -269,7 +269,7 @@ exports.seed = function (knex) {
           ]),
           category: "Bread",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.seriouseats.com/thmb/LoXQL7Yp_uXxtipH8cCp_LGVg5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140810-workhorse-bread-vicky-wasik-3-3a86ee51da2e4a7b8239ceb62d8d8d17.jpg",
         },
         {
           id: 13,
@@ -289,7 +289,7 @@ exports.seed = function (knex) {
           ]),
           category: "Beverage",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://handletheheat.com/wp-content/uploads/2016/04/Nutella-Chocolate-Covered-Pretzel-Milkshakes-Square.jpg",
         },
         {
           id: 14,
@@ -311,7 +311,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://mojo.generalmills.com/api/public/content/eO8BlRFn10edqnyt8dd-Ng_webp_base.webp?v=c5e31169&t=e724eca7b3c24a8aaa6e089ed9e611fd",
         },
         {
           id: 15,
@@ -334,7 +334,7 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://livesimplynatural.com/wp-content/uploads/2015/07/Sweet-Spicy-Avocado-Toast-3.jpg",
         },
         {
           id: 16,
@@ -355,7 +355,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://food-fanatic-res.cloudinary.com/iu/s--sqc_999B--/f_auto,q_auto/v1438812178/peanut-butter-cinnamon-toast-crunch-fudge-photo",
         },
         {
           id: 17,
@@ -376,7 +376,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/jalapeno-poppers-22992e4.jpg",
         },
         {
           id: 18,
@@ -397,7 +397,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.italymagazine.com/sites/default/files/styles/800xauto/public/recipe/fettuccine-all-alfredo.jpg?itok=fpPkx1dK",
         },
         {
           id: 19,
@@ -419,7 +419,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.inspiredtaste.net/wp-content/uploads/2023/09/Fluffy-Biscuits-Video.jpg",
         },
         {
           id: 20,
@@ -442,7 +442,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://sugarspunrun.com/wp-content/uploads/2023/06/Brownie-Cookies-1-of-1.jpg",
         },
         {
           id: 21,
@@ -465,7 +465,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.thespruceeats.com/thmb/vhr4v7dLLanKbLOBXc-CTUDFol0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kettle-corn-recipe-6833421-hero-1-2d03579201de41db8d64281c5b49b72f.jpg",
         },
         {
           id: 22,
@@ -493,7 +493,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/WyCC-RL8cuAEKfYHsdnzqi64iTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/73135-homestyle-potato-chips-ddmfs-0348-3x4-hero-c21021303c8849bbb40c1007bfa9af6e.jpg",
         },
         {
           id: 23,
@@ -512,7 +512,7 @@ exports.seed = function (knex) {
           ]),
           category: "Lunch",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://hips.hearstapps.com/hmg-prod/images/delish-230516-tuna-salad-047-rl-index-6478b7136bfd3.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*",
         },
         {
           id: 24,
@@ -532,7 +532,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.justonecookbook.com/wp-content/uploads/2022/04/Gyudon-7457-I.jpg",
         },
         {
           id: 25,
@@ -556,7 +556,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/XSJoH98eVnTCnaE6lTcDpYHbalw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9870-easy-sugar-cookies-mfs356-1-8c317695c5b645a48f6b20d1b97d3c93.jpg",
         },
         {
           id: 26,
@@ -578,7 +578,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.flavcity.com/wp-content/uploads/2018/06/meatballs-tomato-sauce.jpg",
         },
         {
           id: 27,
@@ -601,7 +601,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.skinnytaste.com/wp-content/uploads/2011/10/Pork-Chops-with-Apple-Sauce-550x367.jpg",
         },
         {
           id: 28,
@@ -624,7 +624,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/oGuHtm6f1x7ieaCVQT--Om8LHsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157642-homemade-flour-tortillas-beauty-2x1-0135064414802282-bd9d3015e8fd4557ade35a886a6d1081.jpg",
         },
         {
           id: 29,
@@ -643,7 +643,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://theheritagecook.com/wp-content/uploads/2013/10/PBJ-Triangles-w-fruit-iStock.jpg",
         },
         {
           id: 30,
@@ -665,7 +665,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://cdn.loveandlemons.com/wp-content/uploads/2024/01/quesadilla.jpg",
         },
         {
           id: 31,
@@ -687,7 +687,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://therecipecritic.com/wp-content/uploads/2022/06/Strawberrytart-scaled.jpg",
         },
         {
           id: 32,
@@ -707,7 +707,7 @@ exports.seed = function (knex) {
           ]),
           category: "Salad",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
         },
         {
           id: 33,
@@ -728,7 +728,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://playswellwithbutter.com/wp-content/uploads/2017/06/PROSCUITTO-WRAPPED-CANTALOUPE-FINALS-1-960x1440.jpg",
         },
         {
           id: 34,
@@ -751,7 +751,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.inspiredtaste.net/wp-content/uploads/2018/11/Easy-Sauteed-Cabbage-Recipe-2-1200.jpg",
         },
         {
           id: 35,
@@ -775,7 +775,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/IAP81Be7Nyly6t_Wkq1uYKzH-qo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/244458-buttered-noodles-DDMFS-4x3-b9931662efa64b37883c0f73b296b124.jpg",
         },
         {
           id: 36,
@@ -798,7 +798,7 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://images.radio-canada.ca/v1/alimentation/recette/4x3/omelette-au-fromage-sur-le-pouce.jpg",
         },
         {
           id: 37,
@@ -822,7 +822,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://theloopywhisk.com/wp-content/uploads/2020/10/Hazelnut-Praline-Paste_730px-featured.jpg",
         },
         {
           id: 38,
@@ -847,7 +847,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://static.wixstatic.com/media/10e36c_6e828c4fffe4469ea27d0d88ea842765~mv2.jpg/v1/fill/w_2500,h_1250,al_c/10e36c_6e828c4fffe4469ea27d0d88ea842765~mv2.jpg",
         },
         {
           id: 39,
@@ -870,7 +870,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://amandascookin.com/wp-content/uploads/2022/11/Pigs-in-a-Blanket-RCSQ.jpg",
         },
         {
           id: 40,
@@ -891,7 +891,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.seriouseats.com/thmb/9Dj-zumWHlL_QcPB3dyBb2Q6DCk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pan-con-tomate-tomato-bread-spanish-recipe-12-45ce91dfa54c43c89086b788067ebb8f.jpg",
         },
         {
           id: 41,
