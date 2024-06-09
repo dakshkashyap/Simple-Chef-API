@@ -49,7 +49,8 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://saltandbaker.com/wp-content/uploads/2021/01/salted-brown-butter-rice-krispie-treats-square.jpg",
+          image_path:
+            "https://saltandbaker.com/wp-content/uploads/2021/01/salted-brown-butter-rice-krispie-treats-square.jpg",
         },
         {
           id: 3,
@@ -71,7 +72,8 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "https://www.allrecipes.com/thmb/e8uotDI18ieXNBY0KpmtGKbxMRM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_008-4x3-6ed91ba87a1344558aacc0f9ef0f4b41.jpg",
+          image_path:
+            "https://www.allrecipes.com/thmb/e8uotDI18ieXNBY0KpmtGKbxMRM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_008-4x3-6ed91ba87a1344558aacc0f9ef0f4b41.jpg",
         },
         {
           id: 4,
@@ -92,7 +94,8 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "https://modernmealmakeover.com/wp-content/uploads/2020/10/IMG_6548-4.jpg",
+          image_path:
+            "https://modernmealmakeover.com/wp-content/uploads/2020/10/IMG_6548-4.jpg",
         },
         {
           id: 5,
@@ -113,7 +116,8 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "https://handletheheat.com/wp-content/uploads/2019/02/The-Best-Pancake-Recipe-SQUARE.jpg",
+          image_path:
+            "https://handletheheat.com/wp-content/uploads/2019/02/The-Best-Pancake-Recipe-SQUARE.jpg",
         },
         {
           id: 6,
@@ -133,7 +137,8 @@ exports.seed = function (knex) {
           ]),
           category: "Bread",
           rating: 4.5,
-          image_path: "https://joyfoodsunshine.com/wp-content/uploads/2019/03/best-banana-bread-recipe-1x1-2-500x375.jpg",
+          image_path:
+            "https://joyfoodsunshine.com/wp-content/uploads/2019/03/best-banana-bread-recipe-1x1-2-500x375.jpg",
         },
         {
           id: 7,
@@ -155,7 +160,8 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/30/97/7/7GmgWw4TTUCCw7xGKQAP_0S9A6434.jpg",
+          image_path:
+            "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/30/97/7/7GmgWw4TTUCCw7xGKQAP_0S9A6434.jpg",
         },
         {
           id: 8,
@@ -178,7 +184,8 @@ exports.seed = function (knex) {
           ]),
           category: "Side Dish",
           rating: 4.5,
-          image_path: "https://www.marthastewart.com/thmb/IgzUVbViUGURRlp6aQDB_iXAd9Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-341854-Perfect-Mashed-Potatoes-Beauty-horiz-0923-2de5512528784a42b42e57871cac1caf.jpg",
+          image_path:
+            "https://www.marthastewart.com/thmb/IgzUVbViUGURRlp6aQDB_iXAd9Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-341854-Perfect-Mashed-Potatoes-Beauty-horiz-0923-2de5512528784a42b42e57871cac1caf.jpg",
         },
         {
           id: 9,
@@ -199,7 +206,8 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "https://static.wixstatic.com/media/10e36c_73ad79d0d18a43afb4c3399e466e2bf1~mv2.jpg/v1/fill/w_640,h_364,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/10e36c_73ad79d0d18a43afb4c3399e466e2bf1~mv2.jpg",
+          image_path:
+            "https://static.wixstatic.com/media/10e36c_73ad79d0d18a43afb4c3399e466e2bf1~mv2.jpg/v1/fill/w_640,h_364,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/10e36c_73ad79d0d18a43afb4c3399e466e2bf1~mv2.jpg",
         },
         {
           id: 10,
@@ -222,7 +230,8 @@ exports.seed = function (knex) {
           ]),
           category: "Soup",
           rating: 4.5,
-          image_path: "https://www.allrecipes.com/thmb/QijITeBBcE99Ur5kDoccAJ35WWo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/277311spicy-fresh-tomato-soupFranceC4x3-56454ad082214f33960f62665fc8c169.jpg",
+          image_path:
+            "https://www.allrecipes.com/thmb/QijITeBBcE99Ur5kDoccAJ35WWo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/277311spicy-fresh-tomato-soupFranceC4x3-56454ad082214f33960f62665fc8c169.jpg",
         },
         {
           id: 11,
@@ -269,7 +278,7 @@ exports.seed = function (knex) {
           ]),
           category: "Bread",
           rating: 4.5,
-          image_path: "https://www.seriouseats.com/thmb/LoXQL7Yp_uXxtipH8cCp_LGVg5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140810-workhorse-bread-vicky-wasik-3-3a86ee51da2e4a7b8239ceb62d8d8d17.jpg",
+          image_path: "https://www.onceuponachef.com/images/2020/03/Crusty-Bread-scaled.jpg",
         },
         {
           id: 13,
@@ -311,7 +320,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "https://mojo.generalmills.com/api/public/content/eO8BlRFn10edqnyt8dd-Ng_webp_base.webp?v=c5e31169&t=e724eca7b3c24a8aaa6e089ed9e611fd",
+          image_path: "https://www.isabeleats.com/wp-content/uploads/2020/12/bean-cheese-burritos-small-13.jpg",
         },
         {
           id: 15,
@@ -376,7 +385,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/jalapeno-poppers-22992e4.jpg",
+          image_path: "https://www.allrecipes.com/thmb/u2jle7sEiO5vkLrIGar0TakjY8s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20858-best-ever-jalapeno-poppers-DDMFS-4x3-69772a3d60cd4a63b6dfac0ff415db51.jpg",
         },
         {
           id: 18,
@@ -465,7 +474,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://www.thespruceeats.com/thmb/vhr4v7dLLanKbLOBXc-CTUDFol0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kettle-corn-recipe-6833421-hero-1-2d03579201de41db8d64281c5b49b72f.jpg",
+          image_path: "",
         },
         {
           id: 22,
@@ -493,7 +502,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://www.allrecipes.com/thmb/WyCC-RL8cuAEKfYHsdnzqi64iTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/73135-homestyle-potato-chips-ddmfs-0348-3x4-hero-c21021303c8849bbb40c1007bfa9af6e.jpg",
+          image_path: "",
         },
         {
           id: 23,
@@ -512,7 +521,7 @@ exports.seed = function (knex) {
           ]),
           category: "Lunch",
           rating: 4.5,
-          image_path: "https://hips.hearstapps.com/hmg-prod/images/delish-230516-tuna-salad-047-rl-index-6478b7136bfd3.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*",
+          image_path: "",
         },
         {
           id: 24,
@@ -532,7 +541,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "https://www.justonecookbook.com/wp-content/uploads/2022/04/Gyudon-7457-I.jpg",
+          image_path: "",
         },
         {
           id: 25,
@@ -556,7 +565,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://www.allrecipes.com/thmb/XSJoH98eVnTCnaE6lTcDpYHbalw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9870-easy-sugar-cookies-mfs356-1-8c317695c5b645a48f6b20d1b97d3c93.jpg",
+          image_path: "",
         },
         {
           id: 26,
@@ -578,7 +587,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "https://www.flavcity.com/wp-content/uploads/2018/06/meatballs-tomato-sauce.jpg",
+          image_path: "",
         },
         {
           id: 27,
@@ -601,7 +610,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "https://www.skinnytaste.com/wp-content/uploads/2011/10/Pork-Chops-with-Apple-Sauce-550x367.jpg",
+          image_path: "",
         },
         {
           id: 28,
@@ -624,7 +633,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "https://www.allrecipes.com/thmb/oGuHtm6f1x7ieaCVQT--Om8LHsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157642-homemade-flour-tortillas-beauty-2x1-0135064414802282-bd9d3015e8fd4557ade35a886a6d1081.jpg",
+          image_path: "",
         },
         {
           id: 29,
@@ -643,7 +652,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://theheritagecook.com/wp-content/uploads/2013/10/PBJ-Triangles-w-fruit-iStock.jpg",
+          image_path: "",
         },
         {
           id: 30,
@@ -665,7 +674,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "https://cdn.loveandlemons.com/wp-content/uploads/2024/01/quesadilla.jpg",
+          image_path: "",
         },
         {
           id: 31,
@@ -687,7 +696,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "https://therecipecritic.com/wp-content/uploads/2022/06/Strawberrytart-scaled.jpg",
+          image_path: "",
         },
         {
           id: 32,
@@ -707,7 +716,7 @@ exports.seed = function (knex) {
           ]),
           category: "Salad",
           rating: 4.5,
-          image_path: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
+          image_path: "",
         },
         {
           id: 33,
@@ -728,7 +737,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "https://playswellwithbutter.com/wp-content/uploads/2017/06/PROSCUITTO-WRAPPED-CANTALOUPE-FINALS-1-960x1440.jpg",
+          image_path: "",
         },
         {
           id: 34,
@@ -751,7 +760,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "https://www.inspiredtaste.net/wp-content/uploads/2018/11/Easy-Sauteed-Cabbage-Recipe-2-1200.jpg",
+          image_path: "",
         },
         {
           id: 35,
@@ -775,7 +784,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "https://www.allrecipes.com/thmb/IAP81Be7Nyly6t_Wkq1uYKzH-qo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/244458-buttered-noodles-DDMFS-4x3-b9931662efa64b37883c0f73b296b124.jpg",
+          image_path: "",
         },
         {
           id: 36,
@@ -798,7 +807,7 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "https://images.radio-canada.ca/v1/alimentation/recette/4x3/omelette-au-fromage-sur-le-pouce.jpg",
+          image_path: "",
         },
         {
           id: 37,
@@ -822,7 +831,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "https://theloopywhisk.com/wp-content/uploads/2020/10/Hazelnut-Praline-Paste_730px-featured.jpg",
+          image_path: "",
         },
         {
           id: 38,
@@ -847,7 +856,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "https://static.wixstatic.com/media/10e36c_6e828c4fffe4469ea27d0d88ea842765~mv2.jpg/v1/fill/w_2500,h_1250,al_c/10e36c_6e828c4fffe4469ea27d0d88ea842765~mv2.jpg",
+          image_path: "",
         },
         {
           id: 39,
@@ -870,7 +879,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "https://amandascookin.com/wp-content/uploads/2022/11/Pigs-in-a-Blanket-RCSQ.jpg",
+          image_path: "",
         },
         {
           id: 40,
@@ -891,7 +900,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "https://www.seriouseats.com/thmb/9Dj-zumWHlL_QcPB3dyBb2Q6DCk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pan-con-tomate-tomato-bread-spanish-recipe-12-45ce91dfa54c43c89086b788067ebb8f.jpg",
+          image_path: "",
         },
         {
           id: 41,
