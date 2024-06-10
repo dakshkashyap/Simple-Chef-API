@@ -474,7 +474,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://bakingmischief.com/wp-content/uploads/2016/09/kettle-corn-image-square-3.jpg",
         },
         {
           id: 22,
@@ -502,7 +502,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/WyCC-RL8cuAEKfYHsdnzqi64iTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/73135-homestyle-potato-chips-ddmfs-0348-3x4-hero-c21021303c8849bbb40c1007bfa9af6e.jpg",
         },
         {
           id: 23,
@@ -521,7 +521,7 @@ exports.seed = function (knex) {
           ]),
           category: "Lunch",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://hips.hearstapps.com/hmg-prod/images/delish-230516-tuna-salad-047-rl-index-6478b7136bfd3.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*",
         },
         {
           id: 24,
@@ -541,7 +541,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.justonecookbook.com/wp-content/uploads/2022/04/Gyudon-7457-I.jpg",
         },
         {
           id: 25,
@@ -565,7 +565,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/XSJoH98eVnTCnaE6lTcDpYHbalw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9870-easy-sugar-cookies-mfs356-1-8c317695c5b645a48f6b20d1b97d3c93.jpg",
         },
         {
           id: 26,
@@ -587,7 +587,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/nfsxdMIw15rqnVtl5LllGZe0KkY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/40399-The-Best-Meatballs-ddmfs-4x3-080-858db61ac9d645b4880adf6417035ad0.jpg",
         },
         {
           id: 27,
@@ -610,7 +610,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://irepo.primecp.com/2017/09/345995/Pork-Chops-and-Applesauce_ExtraLarge1000_ID-2415397.jpg?v=2415397",
         },
         {
           id: 28,
@@ -633,7 +633,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/oGuHtm6f1x7ieaCVQT--Om8LHsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/157642-homemade-flour-tortillas-beauty-2x1-0135064414802282-bd9d3015e8fd4557ade35a886a6d1081.jpg",
         },
         {
           id: 29,
@@ -652,7 +652,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://baycareclinic.com/media/hfehc2fm/pbj-baycare-clinic-blog.jpg",
         },
         {
           id: 30,
@@ -674,7 +674,7 @@ exports.seed = function (knex) {
           ]),
           category: "Snack",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://cdn.loveandlemons.com/wp-content/uploads/2024/01/quesadilla.jpg",
         },
         {
           id: 31,
@@ -696,7 +696,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://therecipecritic.com/wp-content/uploads/2022/06/Strawberrytart-scaled.jpg",
         },
         {
           id: 32,
@@ -716,7 +716,7 @@ exports.seed = function (knex) {
           ]),
           category: "Salad",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
         },
         {
           id: 33,
@@ -737,7 +737,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.melaniecooks.com/wp-content/uploads/2022/03/cantaloupe_proscuitto-2.jpg",
         },
         {
           id: 34,
@@ -760,7 +760,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.inspiredtaste.net/wp-content/uploads/2018/11/Easy-Sauteed-Cabbage-Recipe-2-1200.jpg",
         },
         {
           id: 35,
@@ -784,7 +784,7 @@ exports.seed = function (knex) {
           ]),
           category: "Main Course",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/IAP81Be7Nyly6t_Wkq1uYKzH-qo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/244458-buttered-noodles-DDMFS-4x3-b9931662efa64b37883c0f73b296b124.jpg",
         },
         {
           id: 36,
@@ -807,7 +807,7 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://images.radio-canada.ca/v1/alimentation/recette/4x3/omelette-au-fromage-sur-le-pouce.jpg",
         },
         {
           id: 37,
@@ -831,7 +831,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://theloopywhisk.com/wp-content/uploads/2020/10/Hazelnut-Praline-Paste_730px-featured.jpg",
         },
         {
           id: 38,
@@ -856,7 +856,7 @@ exports.seed = function (knex) {
           ]),
           category: "Side",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://static.wixstatic.com/media/10e36c_6e828c4fffe4469ea27d0d88ea842765~mv2.jpg/v1/fill/w_2500,h_1250,al_c/10e36c_6e828c4fffe4469ea27d0d88ea842765~mv2.jpg",
         },
         {
           id: 39,
@@ -879,7 +879,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.browneyedbaker.com/wp-content/uploads/2021/05/pigs-in-a-blanket-36-square.jpg",
         },
         {
           id: 40,
@@ -900,7 +900,7 @@ exports.seed = function (knex) {
           ]),
           category: "Appetizer",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.seriouseats.com/thmb/9Dj-zumWHlL_QcPB3dyBb2Q6DCk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pan-con-tomate-tomato-bread-spanish-recipe-12-45ce91dfa54c43c89086b788067ebb8f.jpg",
         },
         {
           id: 41,
@@ -921,7 +921,7 @@ exports.seed = function (knex) {
           ]),
           category: "Lunch",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/grilled-cheese.jpg",
         },
         {
           id: 42,
@@ -942,7 +942,7 @@ exports.seed = function (knex) {
           ]),
           category: "Condiment",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.alphafoodie.com/wp-content/uploads/2020/07/Blackberry-Jam-Square-Photo.jpeg",
         },
         {
           id: 43,
@@ -966,7 +966,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.allrecipes.com/thmb/fkeqYFLhRaafDi-Dbl8bDPJwrd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-Nigiri-4x3-79ab72ae4148404d91aa430b701373e5.jpg",
         },
         {
           id: 44,
@@ -989,7 +989,7 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://spanishsabores.com/wp-content/uploads/2023/07/Tortilla-de-Patatas-Featured.jpg",
         },
         {
           id: 45,
@@ -1013,7 +1013,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
         },
         {
           id: 46,
@@ -1036,7 +1036,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://handletheheat.com/wp-content/uploads/2015/08/Nutella-Brownies-011.jpg",
         },
         {
           id: 47,
@@ -1058,7 +1058,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dessert",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.twopeasandtheirpod.com/wp-content/uploads/2022/10/Soft-Peanut-Butter-Cookies-16.jpg",
         },
         {
           id: 48,
@@ -1078,7 +1078,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://dobbernationloves.com/wp-content/uploads/2021/01/Red-Pork-Thai-Curry-12.jpeg",
         },
         {
           id: 49,
@@ -1100,7 +1100,7 @@ exports.seed = function (knex) {
           ]),
           category: "Dinner",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.foodnetwork.com/content/dam/images/food/fullset/2017/2/22/0/FNK_spaghetti-with-oil-and-garlic_s4x3.jpg",
         },
         {
           id: 50,
@@ -1126,7 +1126,7 @@ exports.seed = function (knex) {
           ]),
           category: "Breakfast",
           rating: 4.5,
-          image_path: "",
+          image_path: "https://www.thespruceeats.com/thmb/78Kk_WHXhUN84ABm4U40MGGqFMs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/steak-and-eggs-4780185-07-0f49f22e6fc44a0c8df04f646ac81d0d.jpg",
         },
       ]);
     });
