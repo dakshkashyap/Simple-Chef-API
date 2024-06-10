@@ -4,6 +4,8 @@ const knex = require("knex");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const multer = require("multer"); // Import multer
+const path = require("path");
 require("dotenv").config();
 const knexConfig = require("./knexfile");
 
@@ -13,6 +15,20 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
+
+// Set up multer for file uploads
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, 'uploads/'); // Save files to the 'uploads' directory
+  },
+  filename: (req, file, cb) => {
+    cb(null, Date.now() + path.extname(file.originalname)); // Use a unique filename
+  }
+});
+const upload = multer({ storage });
+
+// Serve static files from the 'uploads' directory
+app.use('/uploads', express.static('uploads'));
 
 // Homepage route
 app.get("/", (req, res) => {
@@ -57,8 +73,6 @@ app.get("/", (req, res) => {
   `);
 });
 
-// Routes
-
 // Get all recipes
 app.get("/recipes", async (req, res) => {
   try {
@@ -95,10 +109,13 @@ app.get("/recipes/category/:category", async (req, res) => {
   }
 });
 
-// Add a new recipe
-app.post("/recipes", async (req, res) => {
+// Add a new recipe with file upload
+app.post("/recipes", upload.single('image_path'), async (req, res) => {
   try {
-    const newRecipe = req.body;
+    const newRecipe = {
+      ...req.body,
+      image_path: req.file ? `/uploads/${req.file.filename}` : null
+    };
     const [id] = await db("recipes").insert(newRecipe);
     res.status(201).json({ id });
   } catch (error) {
@@ -231,13 +248,15 @@ app.post("/search", async (req, res) => {
       res.json(recipes);
     } else {
       // Fetch from external API if no recipes found in the database
-      res.status(404).json({ message: "No recipes found" });
+      res.status(404).json({ message: "No recipes found with the provided ingredients." });
     }
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    console.error("Error searching recipes:", error);
+    res.status(500).json({ message: "Error searching recipes" });
   }
 });
 
+// Set the server to listen on a specific port
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
