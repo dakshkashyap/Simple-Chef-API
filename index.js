@@ -9,7 +9,7 @@ const path = require("path");
 require("dotenv").config();
 const knexConfig = require("./knexfile");
 
-const db = knex(knexConfig.development);
+const db = knex(knexConfig);
 
 const app = express();
 app.use(cors());
