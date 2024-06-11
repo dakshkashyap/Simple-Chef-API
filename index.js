@@ -4,7 +4,7 @@ const knex = require("knex");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const multer = require("multer"); // Import multer
+const multer = require("multer");
 const path = require("path");
 require("dotenv").config();
 const knexConfig = require("./knexfile");
@@ -19,16 +19,16 @@ app.use(bodyParser.json());
 // Set up multer for file uploads
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, 'uploads/'); // Save files to the 'uploads' directory
+    cb(null, "uploads/"); // Save files to the 'uploads' directory
   },
   filename: (req, file, cb) => {
     cb(null, Date.now() + path.extname(file.originalname)); // Use a unique filename
-  }
+  },
 });
 const upload = multer({ storage });
 
 // Serve static files from the 'uploads' directory
-app.use('/uploads', express.static('uploads'));
+app.use("/uploads", express.static("uploads"));
 
 // Homepage route
 app.get("/", (req, res) => {
@@ -110,11 +110,11 @@ app.get("/recipes/category/:category", async (req, res) => {
 });
 
 // Add a new recipe with file upload
-app.post("/recipes", upload.single('image_path'), async (req, res) => {
+app.post("/recipes", upload.single("image_path"), async (req, res) => {
   try {
     const newRecipe = {
       ...req.body,
-      image_path: req.file ? `/uploads/${req.file.filename}` : null
+      image_path: req.file ? `/uploads/${req.file.filename}` : null,
     };
     const [id] = await db("recipes").insert(newRecipe);
     res.status(201).json({ id });
@@ -248,11 +248,37 @@ app.post("/search", async (req, res) => {
       res.json(recipes);
     } else {
       // Fetch from external API if no recipes found in the database
-      res.status(404).json({ message: "No recipes found with the provided ingredients." });
+      res
+        .status(404)
+        .json({ message: "No recipes found with the provided ingredients." });
     }
   } catch (error) {
     console.error("Error searching recipes:", error);
     res.status(500).json({ message: "Error searching recipes" });
+  }
+});
+
+// Add a new comment
+app.post("/comments", async (req, res) => {
+  try {
+    const newComment = req.body;
+    const [id] = await db("comments").insert(newComment);
+    res.status(201).json({ id });
+  } catch (error) {
+    console.error("Error adding comment:", error.message);
+    res.status(500).json({ message: "Failed to add comment" });
+  }
+});
+
+// Get comments for a specific recipe
+app.get("/recipes/:id/comments", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const comments = await db("comments").where({ recipe_id: id });
+    res.status(200).json(comments);
+  } catch (error) {
+    console.error("Error fetching comments:", error.message);
+    res.status(500).json({ message: "Failed to fetch comments" });
   }
 });
 
