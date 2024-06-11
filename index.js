@@ -45,6 +45,9 @@ app.get("/", (req, res) => {
       <li>POST /signup - User signup</li>
       <li>POST /login - User login</li>
       <li>GET /users - List all users</li>
+      <li>POST /search: Search recipes by ingredients</li>
+      <li>POST /comments: Add a new comment</li>
+      <li>GET /recipes/:id/comments: Get comments for a specific recipe</li>
     </ul>
     <h2>Sample Response JSON</h2>
     <pre>
